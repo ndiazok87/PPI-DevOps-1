@@ -1,0 +1,10 @@
+{% extends "template_base.html" %}
+
+{% block title %}
+Bienvenida
+{% endblock %}
+
+{% block content %}
+<h1>¡Bienvenido a nuestra página web!</h1>
+<p>Estamos encantados de tenerte aquí.</p>
+{% endblock %}

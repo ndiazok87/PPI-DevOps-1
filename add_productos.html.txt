@@ -1,0 +1,12 @@
+{% extends "template_base.html" %}
+
+{% block content %}
+<h1>Agregar Producto</h1>
+<form method="POST">
+    <label for="nombre_producto">Nombre del Producto:</label><br>
+    <input type="text" id="nombre_producto" name="nombre_producto"><br>
+    <label for="precio_producto">Precio del Producto:</label><br>
+    <input type="text" id="precio_producto" name="precio_producto"><br>
+    <input type="submit" value="Agregar Producto">
+</form>
+{% endblock %}
